@@ -1,0 +1,25 @@
+.scroll-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  margin: 7px;
+  padding: 7px;
+  border-radius: 5px;
+  background: #f7b500;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  box-shadow: 4px 1px 14px rgba(197, 184, 146, 0.57);
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: transform 0.3s ease, opacity 0.5s ease; /* Adjust opacity transition duration */
+  opacity: 0;
+}
+
+.scroll-to-top:hover {
+  transform: scale(1);
+}
+
+.show {
+  opacity: 1;
+}

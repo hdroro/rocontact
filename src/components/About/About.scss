@@ -1,0 +1,64 @@
+.about-main {
+  h5,
+  p,
+  b,
+  a,
+  span {
+    font-family: "poppins", sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+      color: black;
+    }
+  }
+  .name {
+    span {
+      color: #f7b500;
+      font-weight: 600;
+      font-size: 25px;
+    }
+  }
+
+  .object {
+    text-align: justify;
+    .uni-name {
+      font-weight: 600;
+    }
+  }
+
+  .about-right {
+    b {
+      width: 25%;
+    }
+    p {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #d9d7d7;
+    }
+  }
+}
+
+.download-cv {
+  text-align: center;
+  background: linear-gradient(to right, #f7b500c4 50%, #fce7ac 50%);
+  background-size: 200% 100%;
+  background-position: right;
+  border-radius: 10px;
+  border: 1px solid #9d8156;
+  transition: background-position 0.5s;
+  cursor: pointer;
+  padding: 7px 20px;
+  margin-top: 10px;
+  width: fit-content;
+  font-weight: 600;
+  float: right;
+
+  &:hover {
+    background-position: left;
+    box-shadow: 4px 1px 14px rgba(197, 184, 146, 0.57);
+  }
+}

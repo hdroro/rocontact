@@ -1,0 +1,80 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+
+  background: #3b39391c;
+}
+
+.scrolled {
+  background: #bebebe;
+}
+
+.logo {
+  position: relative;
+  font-size: 25px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.navbar-nav a {
+  display: inline-block;
+  font-size: 25px;
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: 600;
+
+  // margin-left: 35px;
+  transition: 0.3s;
+  position: relative;
+
+  transition: transform 0.3s ease;
+
+  cursor: pointer;
+  &:hover {
+    transform: scale(0.9) !important;
+    color: #bebebe !important;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 23px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #f7b500;
+    transform: scaleX(0);
+    display: block; /* Change from none to block */
+    transition: transform 0.2s ease;
+  }
+
+  &:hover::after {
+    display: block;
+    cursor: pointer;
+    transform: scaleX(1);
+  }
+}
+
+@media (max-width: 990px) {
+  .header {
+    background-color: #838a89e6; /* Màu nền tối khi màn hình chuyển nhỏ */
+    box-shadow: 4px 7px 14px rgb(0, 0, 0, 0.1);
+  }
+
+  .nav-link.text-light {
+    color: #fff; /* Màu chữ trắng khi màn hình chuyển nhỏ */
+  }
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}

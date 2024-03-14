@@ -1,0 +1,39 @@
+#projects {
+  span,
+  b,
+  h1,
+  ul,
+  b,
+  li {
+    font-family: "poppins", sans-serif;
+  }
+}
+
+.project-left {
+  .title-project {
+    font-size: 25px;
+  }
+  .responsibility {
+    color: #89857b;
+  }
+}
+
+.label-project {
+  border-top: 1px solid #89857b;
+  span {
+    font-size: 18px;
+    font-weight: 600;
+
+    &:last-child {
+      font-weight: 500;
+    }
+  }
+}
+
+// image .active {
+//   display: block;
+// }
+
+img:not(.active) {
+  display: none;
+}

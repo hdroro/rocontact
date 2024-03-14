@@ -1,0 +1,112 @@
+.home {
+  position: relative;
+  width: 100%;
+  // justify-content: space-between;
+  min-height: 100vh;
+
+  .information {
+    padding-top: 180px;
+    color: #f7b500;
+    .name {
+      letter-spacing: 18px;
+      transition: transform 0.3s ease;
+      transform: scale(1);
+      // animation: enterLeft 1s cubic-bezier(0.76, 0.57, 0.17, 1.05) backwards;
+
+      &:hover {
+        transform: scale(0.9) !important;
+        cursor: pointer;
+      }
+    }
+
+    .description-home {
+      /* font-family: &quot;Major Mono Display&quot;, monospace !important; */
+      text-transform: uppercase;
+      font-size: 120px;
+
+      .main-text {
+        text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .description-home {
+        font-size: 90px;
+      }
+    }
+
+    .blockquote {
+      color: #fff;
+
+      .hight-light {
+        position: relative;
+
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: 11px;
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background-color: #f7b500;
+          transform: scaleX(1);
+          display: block;
+          transition: height 0.5s ease; /* Added transition property */
+        }
+
+        &:hover::after {
+          display: block;
+          cursor: pointer;
+          height: 100%;
+          bottom: 0;
+        }
+      }
+    }
+
+    .blockquote-footer {
+      color: #f7b500 !important;
+    }
+  }
+
+  .figure {
+    background-image: url("../../assets/images/bgHome.png");
+
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    // min-height: 100vh;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
+
+  .check-double {
+    cursor: pointer;
+
+    .check-bottom {
+      margin-top: -15px;
+    }
+
+    .check-top,
+    .check-bottom {
+      color: #f7b500 !important;
+      opacity: 0;
+      transform: translateY(-100%);
+      animation: slideDown 1.5s forwards ease-out infinite;
+    }
+
+    .check-bottom {
+      animation-delay: 0.2s; /* Độ trễ cho hiệu ứng của check-bottom */
+    }
+
+    @keyframes slideDown {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  }
+}

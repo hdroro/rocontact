@@ -1,0 +1,38 @@
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // font-family: "poppins", sans-serif;
+
+  font-family: "DM Mono", monospace;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: #000 !important;
+}
+
+body {
+  color: #ededed;
+}
+
+::selection {
+  background-color: transparent; /* Màu nền khi văn bản được chọn */
+  color: transparent; /* Màu chữ khi văn bản được chọn */
+}
