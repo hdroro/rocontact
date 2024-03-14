@@ -14,7 +14,7 @@ function Skill() {
               <div className="skill-bar">
                 <div className="info">
                   <p>HTML/Javascript/CSS</p>
-                  <p>80%</p>
+                  <p>85%</p>
                 </div>
                 <div className="bar">
                   <span className="fe-basic"></span>
@@ -24,7 +24,7 @@ function Skill() {
               <div className="skill-bar">
                 <div className="info">
                   <p>ReactJS</p>
-                  <p>75%</p>
+                  <p>85%</p>
                 </div>
                 <div className="bar">
                   <span className="reactjs"></span>
@@ -66,7 +66,7 @@ function Skill() {
               <div className="skill-bar">
                 <div className="info">
                   <p>MySQL/SQL server</p>
-                  <p>75%</p>
+                  <p>80%</p>
                 </div>
                 <div className="bar">
                   <span className="database"></span>
