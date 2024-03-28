@@ -65,7 +65,7 @@ function Skill() {
 
               <div className="skill-bar">
                 <div className="info">
-                  <p>MySQL/SQL server</p>
+                  <p>MySQL/MongoDB/SQL server</p>
                   <p>80%</p>
                 </div>
                 <div className="bar">
