@@ -68,14 +68,26 @@
       }
 
       .nodejs {
-        width: 80%;
+        width: 85%;
         animation: nodejs 6s;
+        box-shadow: 4px 1px 14px rgb(247 181 0 / 57%);
+      }
+
+      .another-language {
+        width: 60%;
+        animation: another-language 7s;
         box-shadow: 4px 1px 14px rgb(247 181 0 / 57%);
       }
 
       .database {
         width: 80%;
-        animation: database 7s;
+        animation: database 8s;
+        box-shadow: 4px 1px 14px rgb(247 181 0 / 57%);
+      }
+
+      .database-nonsql {
+        width: 60%;
+        animation: database-nonsql 9s;
         box-shadow: 4px 1px 14px rgb(247 181 0 / 57%);
       }
     }
@@ -181,7 +193,17 @@
   }
 
   100% {
-    width: 80%;
+    width: 85%;
+  }
+}
+
+@keyframes another-language {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 60%;
   }
 }
 
@@ -192,6 +214,16 @@
 
   100% {
     width: 80%;
+  }
+}
+
+@keyframes database-nonsql {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 60%;
   }
 }
 

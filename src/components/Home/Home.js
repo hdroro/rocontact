@@ -12,7 +12,7 @@ function Home() {
               <h3 className="name">hongdiemnguyen</h3>
               <h3 className="description-home text-center">
                 <div className="d-flex flex-column lh-1 main-text">
-                  <span>Frontend</span>
+                  <span>Web</span>
                   <span>Developer</span>
                 </div>
               </h3>

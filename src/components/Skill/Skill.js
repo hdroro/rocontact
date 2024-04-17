@@ -56,7 +56,7 @@ function Skill() {
               <div className="skill-bar">
                 <div className="info">
                   <p>NodeJS (Express)</p>
-                  <p>80%</p>
+                  <p>85%</p>
                 </div>
                 <div className="bar">
                   <span className="nodejs"></span>
@@ -65,11 +65,31 @@ function Skill() {
 
               <div className="skill-bar">
                 <div className="info">
-                  <p>MySQL/MongoDB/SQL server</p>
+                  <p>Python/C#/Java</p>
+                  <p>60%</p>
+                </div>
+                <div className="bar">
+                  <span className="another-language"></span>
+                </div>
+              </div>
+
+              <div className="skill-bar">
+                <div className="info">
+                  <p>MySQL/SQL server</p>
                   <p>80%</p>
                 </div>
                 <div className="bar">
                   <span className="database"></span>
+                </div>
+              </div>
+
+              <div className="skill-bar">
+                <div className="info">
+                  <p>MongoDB/Firebase</p>
+                  <p>60%</p>
+                </div>
+                <div className="bar">
+                  <span className="database-nonsql"></span>
                 </div>
               </div>
             </div>

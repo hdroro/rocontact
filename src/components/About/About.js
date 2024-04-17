@@ -1,12 +1,12 @@
-import { files } from "../../assets/files";
+// import { files } from "../../assets/files";
 import TopHeader from "../TopHeader/TopHeader";
 import "./About.scss";
 
 function About() {
-  const handleDownloadClick = () => {
-    const cvUrl = files.cv;
-    window.open(cvUrl, "_blank");
-  };
+  // const handleDownloadClick = () => {
+  //   const cvUrl = files.cv;
+  //   window.open(cvUrl, "_blank");
+  // };
   return (
     <div id="about">
       <TopHeader left={true}>about</TopHeader>
@@ -16,7 +16,7 @@ function About() {
             <div className="col-lg-6 col-md-12">
               <div className="about-left pb-4">
                 <h5 className="name">
-                  I'm Hong Diem Nguyen and <span>Frontend Developer!</span>
+                  I'm Hong Diem Nguyen and <span>Web Developer!</span>
                 </h5>
                 <p className="object">
                   I am currently a third-year student in information technology
@@ -24,11 +24,11 @@ function About() {
                   <span className="uni-name">
                     Danang University of Science and Technology
                   </span>
-                  . At present, I am seeking an internship as a Frontend Web
-                  Developer to further develop my skills. If given the chance to
-                  join your team, I am committed to not only advancing my
-                  current knowledge but also accumulating valuable experience in
-                  the field to contribute to the team's growth.
+                  . At present, I am seeking an internship as a{" "}
+                  <b>Web Developer</b> to further develop my skills. If given
+                  the chance to join your team, I am committed to not only
+                  advancing my current knowledge but also accumulating valuable
+                  experience in the field to contribute to the team's growth.
                 </p>
               </div>
             </div>
@@ -69,9 +69,9 @@ function About() {
                   <b>Phone:</b> <a href="tel:0353905691">0353905691</a>
                 </p>
 
-                <div className="download-cv mt-3" onClick={handleDownloadClick}>
+                {/* <div className="download-cv mt-3" onClick={handleDownloadClick}>
                   <span> Download CV</span>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
