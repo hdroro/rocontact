@@ -42,7 +42,7 @@ function About() {
                 </p>
                 <p className="d-flex">
                   <b>Website:</b>{" "}
-                  <a href="https://rorodev.f.app">
+                  <a href="https://rorodev.netlify.app">
                     https://rorodev.netlify.app
                   </a>
                 </p>
